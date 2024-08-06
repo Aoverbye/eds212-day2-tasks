@@ -11,8 +11,31 @@ library(tidyverse)
 library(palmerpenguins)
 install.packages("palmerpenguins")
 usethis::use_git()
-usethis::use_github()
+
 ```
 
 ```{r}
 3 + 3
+```
+```{r}
+x=3
+x^2
+```
+```{r}
+a = 12
+2 * 3 * a^4 * 2^4 - 5
+```
+
+```{r}
+library(palmerpenguins)
+```
+```{r}
+penguins <- penguins
+
+ggplot(data = penguins, aes (x = bill_length_mm, y = bill_depth_mm, color = species)) +
+  geom_point()
+
+```
+
+
+
