@@ -1,0 +1,14 @@
+---
+title: "afternoon_exercises_day2"
+author: "Amanda Overbye"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+install.packages("palmerpenguins")
+```
+
