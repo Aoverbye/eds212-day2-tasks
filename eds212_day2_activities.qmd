@@ -10,5 +10,9 @@ editor_options:
 library(tidyverse)
 library(palmerpenguins)
 install.packages("palmerpenguins")
+usethis::use_git()
+usethis::use_github()
 ```
 
+```{r}
+3 + 3
